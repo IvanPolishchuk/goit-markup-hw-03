@@ -55,14 +55,10 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: var(--hover-color);
-}
 
-a:focus {
-  color: var(--hover-color);
+.card-link:not([disabled]):hover {
+  cursor: pointer;
 }
-
 
 .container {
   width: 1158px;
@@ -149,6 +145,10 @@ a:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+}
+
+.mail:hover {
+  color: var(--hover-color);
 }
 
 .adr {
@@ -245,6 +245,7 @@ a:focus {
 }
 
 .chapter {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -261,7 +262,6 @@ a:focus {
 }
 
 .team-list {
-  margin-top: 72px;
   gap: 24px;
 }
 
@@ -284,7 +284,6 @@ a:focus {
 .footer {
   background-color: var(--studio-color);
   padding: 100px 0;
-
 }
 
 .gallery {
@@ -301,8 +300,6 @@ a:focus {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  margin-top: 72px;
-
 }
 
 .project-card {
@@ -312,7 +309,6 @@ a:focus {
 }
 
 .card-content {
-
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -322,6 +318,7 @@ a:focus {
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 72px;
   gap: 24px;
   justify-content: center;
 }
@@ -373,7 +370,7 @@ a:focus {
 .footer-text {
   width: 264px;
   color: #F4F4FD;
-  margin-top: 16px;
+
  
   font-style: normal;
 font-weight: 400;
@@ -392,4 +389,6 @@ letter-spacing: 0.02em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
+  margin-bottom: 16px;
 }
+
