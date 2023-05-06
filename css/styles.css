@@ -233,6 +233,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .what-doing-section {
@@ -256,7 +258,6 @@ a {
 
 .team {
   background-color: #f4f4fd;
-  /* margin-top: 72px; */
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -274,6 +275,12 @@ a {
 .empl-name {
   margin-bottom: 8px;
   color: var(--studio-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
 }
 
 .empl-descr {
@@ -287,11 +294,7 @@ a {
 }
 
 .gallery {
-  box-sizing: content-box;
-  width: 1164px;
-  margin-left: auto;
-  margin-right: auto;
- padding: 96px 0 120px;
+  padding: 96px 0 120px;
 }
 
 .gallery-list {
@@ -360,24 +363,20 @@ a {
 
 .header-nav {
   display: flex;
-
-  gap: 40px;
-
   align-items: center;
-
 }
 
 .footer-text {
   width: 264px;
   color: #F4F4FD;
 
- 
-  font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
 
-letter-spacing: 0.02em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
 }
 
 .footer-logo {
@@ -391,4 +390,3 @@ letter-spacing: 0.02em;
   color: var(--logo-color);
   margin-bottom: 16px;
 }
-
